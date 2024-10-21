@@ -31,7 +31,7 @@ export const Heroes = () => {
                 <SearchForm />
               </div>
             </div>
-            <div className="absolute flex gap-5 top-[70%] right-[0%] overflow-x-hidden">
+            <div className="absolute flex gap-5 top-[69%] right-[0%] overflow-x-hidden">
               {SceneItems.map((scene) => (
                 <img key={scene.id} src={scene.img} />
               ))}
