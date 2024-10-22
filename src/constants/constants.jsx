@@ -11,6 +11,11 @@ import idiots from "../assets/3idiots.jpg";
 import onepiece from "../assets/onepiece.jpg";
 import us from "../assets/us.jpg";
 
+// icon sosmed
+import fb from "../assets/Facebook Icon.svg";
+import linkedin from "../assets/Linkedin Icon.svg";
+import twitter from "../assets/Twitter Icon.svg";
+
 export const NavbarItems = [
   {
     id: 1,
@@ -60,36 +65,50 @@ export const SceneItems = [
   },
 ];
 
-
 export const movieItems = [
   {
     id: 1,
     img: chanta,
     title: "Dil Chahta Hai",
-    year: "2001"
+    year: "2001",
   },
   {
     id: 2,
     img: last,
     title: "Last Of Us",
-    year: "2023"
+    year: "2023",
   },
   {
     id: 3,
     img: idiots,
     title: "3 Idiots",
-    year: "2009"
+    year: "2009",
   },
   {
     id: 4,
     img: onepiece,
     title: "One Piece",
-    year: "2008"
+    year: "2008",
   },
   {
     id: 5,
     img: us,
     title: "Remember Us",
-    year: "2019"
-  }
-]
+    year: "2019",
+  },
+];
+
+export const iconItems = [
+  {
+    id: 1,
+    img: fb,
+  },
+  {
+    id: 2,
+    img: linkedin,
+  },
+  {
+    id: 3,
+    img: twitter,
+  },
+];
