@@ -4,6 +4,13 @@ import scene1 from "../assets/scene1.jpg";
 import scene2 from "../assets/scene2.jpg";
 import scene3 from "../assets/scene3.jpg";
 
+// movie image
+import chanta from "../assets/chanta.jpg";
+import last from "../assets/last.jpg";
+import idiots from "../assets/3idiots.jpg";
+import onepiece from "../assets/onepiece.jpg";
+import us from "../assets/us.jpg";
+
 export const NavbarItems = [
   {
     id: 1,
@@ -52,3 +59,37 @@ export const SceneItems = [
     img: scene3,
   },
 ];
+
+
+export const movieItems = [
+  {
+    id: 1,
+    img: chanta,
+    title: "Dil Chahta Hai",
+    year: "2001"
+  },
+  {
+    id: 2,
+    img: last,
+    title: "Last Of Us",
+    year: "2023"
+  },
+  {
+    id: 3,
+    img: idiots,
+    title: "3 Idiots",
+    year: "2009"
+  },
+  {
+    id: 4,
+    img: onepiece,
+    title: "One Piece",
+    year: "2008"
+  },
+  {
+    id: 5,
+    img: us,
+    title: "Remember Us",
+    year: "2019"
+  }
+]

@@ -9,7 +9,7 @@ export const Heroes = () => {
         <div key={item.id} className="relative">
           <img src={item.image} alt={item.title} className="w-full h-screen" />
           <div className="flex">
-            <div className="absolute top-[36%] left-[21%] lg:pl-4 sm:pl-28 w-[500px] transform -translate-x-1/2 text-white">
+            <div className="absolute top-[36%] lg:left-[21%] 2xl:left-[18%] lg:pl-4 sm:pl-28 w-[500px] transform -translate-x-1/2 text-white">
               <h1 className="text-[32px] font-bold text-white">
                 {item.subtitle}
               </h1>
@@ -17,8 +17,8 @@ export const Heroes = () => {
                 {item.service}
               </h2>
               <div className="flex items-center justify-start gap-6 mt-6">
-                <Button variant="bg-[#00925D] w-[200px] h-[45px]">
-                  SHow Package
+                <Button variant="bg-btnSecondary w-[200px] h-[45px]">
+                  Show Package
                 </Button>
                 <Button variant="bg-transparent border border-white w-[200px] h-[45px]">
                   Get Started
@@ -31,7 +31,7 @@ export const Heroes = () => {
                 <SearchForm />
               </div>
             </div>
-            <div className="absolute flex gap-5 top-[69%] right-[0%] overflow-x-hidden">
+            <div className="absolute flex gap-5 lg:top-[69%] 2xl:top-[65%] right-[0%] overflow-x-hidden">
               {SceneItems.map((scene) => (
                 <img key={scene.id} src={scene.img} />
               ))}

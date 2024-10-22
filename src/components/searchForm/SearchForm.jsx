@@ -12,7 +12,7 @@ export const SearchForm = (props) => {
         onChange={onChange}
         value={value}
       />
-      <Button variant="bg-[#00925D] w-[70px] h-[50px]">Search</Button>
+      <Button variant="bg-btnSecondary w-[70px] h-[50px]">Search</Button>
     </div>
   );
 };
